@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,6 +31,7 @@ namespace Car_Racing
             ResetGame();
         }
 
+        // This code to control the car left using the left arrow in the keyboard
         private void keyisdown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -43,7 +44,7 @@ namespace Car_Racing
             }
 
         }
-
+        // This code to control the car right using the right arrow in the keyboard
         private void keyisup(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -55,10 +56,10 @@ namespace Car_Racing
                 goright = false;
             }
         }
-
+        // this code counts the time and the score which the player survives to give the medal
         private void gameTimerEvent(object sender, EventArgs e)
         {
-
+               
             txtScore.Text = "Score: " + score;
             score++;
 
@@ -125,7 +126,7 @@ namespace Car_Racing
 
 
         }
-
+        //this code is to change the cars which appears randomly
         private void changeAIcars(PictureBox tempCar)
         {
 
@@ -176,7 +177,7 @@ namespace Car_Racing
                 tempCar.Left = carPosition.Next(245, 422);
             }
         }
-
+        //this code is when you destroy the car so it ends the game
         private void gameOver()
         {
             playSound();
@@ -195,7 +196,7 @@ namespace Car_Racing
 
 
         }
-
+        //this code to reset the game
         private void ResetGame()
         {
 
@@ -221,12 +222,12 @@ namespace Car_Racing
 
 
         }
-
+        //this code is to restart the game from the begaining
         private void restartGame(object sender, EventArgs e)
         {
             ResetGame();
         }
-
+        // this code is to play the carsh sound when the car crashes
         private void playSound()
         {
             System.Media.SoundPlayer playCrash = new System.Media.SoundPlayer(Properties.Resources.hit);
