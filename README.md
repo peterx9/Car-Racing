@@ -21,9 +21,9 @@ the game target is collecting as much high score as you can.
 you have to avoid the other cars and if you touch them your car will destroy
 
 when you die you will receive a medal
-if your score `40-500` you receive `Bronze` medal
-if your score `500-2000` you receive `Silver` medal
-if your score is higher than `2000` you recive `Bronze` medal
+- if your score `40-500` you receive `Bronze` medal
+- if your score `500-2000` you receive `Silver` medal
+- if your score is higher than `2000` you recive `Gold` medal
 
 ## Game difficulty
 you might think the game is easy but it isn't, the game difficulty is increasing after scoring points (race the other cars)
@@ -34,4 +34,6 @@ while your score gets higher and higher your speed also increases so the game be
 - `Racing`
 - `Score`
 - `Challenges`
+
+## 
 
