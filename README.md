@@ -36,6 +36,10 @@ while your score gets higher and higher your speed also increases so the game be
 - `Challenges`
 
 ## Классы игры
-- `Form1.cs` there are written the methods to `Control the car` , `Count the score` , `Give the prizes` , `Changing the enimes randomly` , `End, Start and Restart the game` , `Play sound`
+- `Form1.cs` here you can find these methods `keyisdown,keyisup` these two methods are written to control the movment of the player , `gameTimerEvent` this method is written to count the time, calculate the score and give prizes, `changeAIcars` this method is to change the enimes randomly , `gameOver,ResetGame and restartGame` these 3 method is to reset and restart the game , `Play sound` this method is to play crash sound when the car crashes
 
-- `Form1.cs`
+- `Form1.Designer.cs` here where is the background and the designs are created using `windows form`
+
+- `Properties/Resources.Designer` The main idea of this class is to provide a centralized location for managing and accessing the game's resources. This makes it easier to manage and update resources, as well as to ensure that they are used consistently throughout the game
+
+
