@@ -35,5 +35,7 @@ while your score gets higher and higher your speed also increases so the game be
 - `Score`
 - `Challenges`
 
-## 
+## Классы игры
+- `Form1.cs` there are written the methods to `Control the car` , `Count the score` , `Give the prizes` , `Changing the enimes randomly` , `End, Start and Restart the game` , `Play sound`
 
+- `Form1.cs`
